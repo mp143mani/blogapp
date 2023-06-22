@@ -111,7 +111,8 @@ function Action({ id, onDelete }) {
     <>
       <i className="fa-solid fa-pen" style={{ cursor: 'pointer' }} onClick={() => navigate(`/edit-blog/${id}`)}></i>
       &nbsp;&nbsp;&nbsp;
-      <i className="fa-solid fa-trash" style={{ cursor: 'pointer' }} onClick={onDelete}></i>
+      <i className="fa-solid fa-trash" style={{ cursor: 'pointer' }} onClick={() => onDelete(id)}></i>
+
     </>
   );
 }
