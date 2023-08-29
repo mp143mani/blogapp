@@ -59,7 +59,7 @@ function ManageBlog() {
         <thead>
           <tr>
             <th style={{ width: '5%' }}>#</th>
-            <th style={{ width: '10%' }}>Title</th>
+            <th style={{ width: '10%' }}>Book Title</th>
             <th style={{ width: '50%' }}>Description</th>
             <th style={{ width: '15%' }}>Image</th>
             <th style={{ width: '10%' }}>Status</th>
