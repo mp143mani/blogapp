@@ -9,9 +9,9 @@ function Sidebar() {
             {/* <!-- Sidebar - Brand --> */}
             <div className="sidebar-brand d-flex align-items-center justify-content-center " >
                 <div className="sidebar-brand-icon rotate-n-15">
-                <i class="fa-brands fa-blogger-b"></i>
+                <i class="fa fa-book"></i>
                 </div>
-                <div className="sidebar-brand-text mx-3"> Blog App</div>
+                <div className="sidebar-brand-text mx-3"> library</div>
             </div>
 
             {/* <!-- Divider --> */}
@@ -22,7 +22,7 @@ function Sidebar() {
                 <li className="nav-item active" style={{cursor:"pointer"}}>
                     <div className="nav-link">
                     <i class="fa-solid fa-house"></i>
-                        <span>Home</span></div>
+                        <span>Show Books</span></div>
                 </li>
             </Link>
 
@@ -44,7 +44,7 @@ function Sidebar() {
                 <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fa-solid fa-plus"></i>
-                    <span>Create Blog</span>
+                    <span>Create Library</span>
                 </div>
             </li>
 
@@ -53,7 +53,7 @@ function Sidebar() {
                 <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fa-solid fa-list-check"></i>
-                    <span>Manage Blog</span>
+                    <span>Manage  Library</span>
                 </div>
             </li>
 

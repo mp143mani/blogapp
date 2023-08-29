@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Sidebar from './components/Sidebar';
-import CreateBlog from './components/CreateBlog';
+import CreateBlog from './components/Createbook';
 import Home from './components/Home';
-import ManageBlog from './components/ManageBlog';
-import EditBlog from './components/EditBlog';
+import ManageBlog from './components/ManageBook';
+import EditBlog from './components/EditBook';
 
 
 // import { useState } from 'react';
