@@ -21,7 +21,8 @@ function Sidebar() {
             <Link to={'/home'}>
                 <li className="nav-item active" style={{cursor:"pointer"}}>
                     <div className="nav-link">
-                    <i class="fa-solid fa-house"></i>
+                  <i className="fa-solid fa-book" style={{color: '#8f8f8f'}} />
+
                         <span>Show Books</span></div>
                 </li>
             </Link>
