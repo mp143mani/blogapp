@@ -50,7 +50,7 @@ function CreateBlog() {
   return <div className='main-content' >
     <div>
     <Form onSubmit={formik.handleSubmit} >
-      <Form.Group className="mb-3" style={{width:"300px"}}>
+      <Form.Group className="mb-3" style={{width:"400px"}}>
         <Form.Label>Title</Form.Label >
         <Form.Control 
           type="text" 
