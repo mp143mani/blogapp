@@ -69,10 +69,10 @@ function EditBlog() {
     }
   },[])
 
-  return <div className='main-content'>
+  return <div className='main-content' style={{textAlign:"center"}}>
       <div>
     <Form onSubmit={formik.handleSubmit}>
-      <Form.Group className="mb-3">
+      <Form.Group className="mb-3" style={{width:"400px"}}>
         <Form.Label>Title</Form.Label>
         <Form.Control 
           type="text" 
