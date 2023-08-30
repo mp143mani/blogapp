@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <div>
-       <h2 className='home-title'>Latest Blogs</h2>
+       <h2 className='home-title'>Latest Books</h2>
       {
       blogs.map((e, i) => (
         <Blogitem blogdata={e} key={i} />

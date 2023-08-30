@@ -44,7 +44,7 @@ function Sidebar() {
                 <div className="nav-link collapsed" data-toggle="collapse" data-target="#collapseTwo"
                     aria-expanded="true" aria-controls="collapseTwo">
                     <i class="fa-solid fa-plus"></i>
-                    <span>Create Library</span>
+                    <span>Create Library </span>
                 </div>
             </li>
 
